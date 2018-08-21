@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+body{
+    background: #F0F0F0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+@font-face {
+    font-family: charukola;
+    src: url(../fonts/charukola/Charukola-Unicode-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: charukolabold;
+    src: url(../fonts/charukola/Charukola-Unicode-Bold.ttf);
+}
+/*navbar css*/
+#manubar{
+    background:#fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 5px 5px -5px #000;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link i{
+    color: #AA1E23;
+    font-size: 16px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: #AA1E23;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*navbar css end*/
+
+/*main part css start*/
+#main_part{
+    margin-top: 100px;
+}
+#main_part h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #AA1E23;
+    font-family: 'Source Sans Pro', sans-serif;}
+#main_part h3{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 5px 0px;
+}
+#main_part p{
+    font-family: charukola;
+    font-size: 16px;
+}
+#main_part h6{
+
+}
+/*card css*/
+.card{
+    transition: all linear .5s;
+    cursor:pointer;
+
+
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0 0 8px;
+}
+.card h4{
+    font-family: charukolabold;
+    font-size: 18px;
+    color: #4e555b;
+    font-weight: 400;
+}
+.card p{
+    font-size: 8px;
+    font-weight:600;
+    color:#4e555b;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+
+}
+.client_star i{
+    color: #AA1E23;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.thaka h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.card h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+.btn-custom{
+    border: 1px solid #AA1E23;
+    color: #AA1E23;
+    transition: all linear .5s;
+}
+.btn-custom:hover{
+    background: #AA1E23;
+    color: #f8f9fa;
+
+}
+/*main part css part end*/
