@@ -217,4 +217,18 @@ class ContentUpload
                  </script>";
         }
     }
+    public function TrasactionNumberAdd($data){
+        {
+
+            $t_number = $data['t_number'];
+            $t_name = $data['t_name'];
+            $date = (date("d-m-y", time()));
+            $sql = "INSERT INTO  `t_account`(`id`, `t_number`, `t_name`, `data`) VALUES ('','$t_number','$t_name','$date')";
+            if (mysqli_query(Database::dbCon(), $sql)) {
+                echo "<script> alert('Your Information Upload Successfuly');
+                            window.history.back();
+                 </script>";
+            }
+        }
+    }
 }

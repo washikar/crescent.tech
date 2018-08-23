@@ -36,7 +36,7 @@ include_once('inc/banner.php'); ?>
                                 <div class="blog_text ">
                                     <p>
 <!--                                        --><?//=$show_course['description'];?>
-                                        <?= substr($show_course['description'], 0, 200) . '...'; ?>
+                                        <?= substr($show_course['description'], 0, 350) . '...'; ?>
                                     </p>
                                     <div class="blog_button">
                                         <a href="../backend/">ক্রয় করুন </a>

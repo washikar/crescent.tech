@@ -128,4 +128,18 @@ class Showdata
             die('Query Problem' . mysqli_error(Database::dbCon()));
         }
     }
+    public function fatchAllTransactionNumber()
+    {
+        $sql = 'SELECT * FROM `t_account`';
+        if (mysqli_query(Database::dbCon(), $sql)) {
+            $queryResult = mysqli_query(Database::dbCon(), $sql);
+            while ($row = mysqli_fetch_assoc($queryResult)) {
+                $array[] = $row;
+            }
+            return $array;
+
+        } else {
+            die('Query Problem' . mysqli_error(Database::dbCon()));
+        }
+    }
 }

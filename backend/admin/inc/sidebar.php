@@ -38,6 +38,12 @@
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+                <a class="nav-link" href="t_account.php">
+                    <i class="fa fa-fw fa-link"></i>
+                    <span class="nav-link-text">Transaction Number</span>
+                </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
                 <a class="nav-link" href="contact.php">
                     <i class="fa fa-fw fa-link"></i>
                     <span class="nav-link-text">Contact List</span>

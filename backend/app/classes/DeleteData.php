@@ -85,5 +85,18 @@ class DeleteData
         die();
 
     }
+    public function deleteTransactionNumber($id){
+        $sql="DELETE FROM `t_account` WHERE id='$id'";
+        if (mysqli_query(Database::dbCon(), $sql)) {
+            echo "<script> alert('Your Information Delete Successfuly');
+                            window.history.back();
+                 </script>";
+        }
+        else {
+            die('Query Problem' . mysqli_error(Database::dbCon()));
+        }
+        die();
+
+    }
 
 }

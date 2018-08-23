@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6,p{
 #main_part{
     margin-top: 100px;
 }
+
 #main_part h5{
     font-size: 20px;
     font-weight: 600;
@@ -112,4 +113,5 @@ h1,h2,h3,h4,h5,h6,p{
     color: #f8f9fa;
 
 }
+
 /*main part css part end*/

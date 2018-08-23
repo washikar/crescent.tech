@@ -271,4 +271,21 @@ class Contentupdate
 
 
  }
+    public function TransactionNumberUpdate($data)
+    {
+        $id=$data['id'];
+
+        $t_number = $data['t_number'];
+        $t_name = $data['t_name'];
+        $sql = "UPDATE `t_account` SET `t_number`='$t_number',`t_name`='$t_name' WHERE id='$id'";
+        if (mysqli_query(Database::dbCon(), $sql)) {
+            echo "<script> alert('Your Information Update Successfuly');
+                           location.replace('t_account.php');
+                 </script>";
+
+        } else {
+            die('Query Problem' . mysqli_error(Database::dbCon()));
+        }
+
+    }
 }

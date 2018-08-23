@@ -27,7 +27,7 @@ if (!empty($_POST)) {
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="../../frontend/contents/website/images/logo.png" width="50" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -61,7 +61,7 @@ if (!empty($_POST)) {
         <div class="container">
             <div class="row">
                 <!--            bkash -->
-                <div class="col-lg-2">
+                <div class="offset-lg-4 col-lg-2">
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#bkash">
                         <img src="assets/images/bkash.png" alt="">
                     </button>
